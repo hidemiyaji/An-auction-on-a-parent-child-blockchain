@@ -1,0 +1,11 @@
+Cross-Chain Auction Scalability Test Results
+Generated: 2025-06-30 14:51:00
+Configuration: CBC counts [5, 10, 20, 50, 100], 20 trials each
+
+CBC Count  Total Bidders   Simple Avg (ms) DLP Avg (ms)    Ratio     
+--------------------------------------------------------------------------------
+5          50              0.034           0.123           3.64      x
+10         75              0.042           0.177           4.16      x
+20         125             0.069           0.303           4.37      x
+50         275             0.151           0.689           4.56      x
+100        525             0.307           1.658           5.40      x

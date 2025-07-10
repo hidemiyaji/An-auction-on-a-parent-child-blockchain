@@ -1,0 +1,27 @@
+CBC=50 20-trial performance measurement results
+==================================================
+
+Experiment settings:
+  Number of CBCs: 50
+  Total bidders: 1000
+  Bidders per CBC: 20
+  Number of winners: 2
+  Number of trials: 20
+
+Simple Auction results:
+  Average time: 0.000784s (0.784ms)
+  Standard deviation: 0.000997s (0.997ms)
+  Minimum time: 0.000413s (0.413ms)
+  Maximum time: 0.004856s (4.856ms)
+
+DLP-based Auction results:
+  Average time: 0.002412s (2.412ms)
+  Standard deviation: 0.000335s (0.335ms)
+  Minimum time: 0.002061s (2.061ms)
+  Maximum time: 0.003416s (3.416ms)
+
+LaTeX table data:
+Simple Auction:
+  0.784 & 0.997 & 0.413 & 4.856
+DLP-based Auction:
+  2.412 & 0.335 & 2.061 & 3.416
