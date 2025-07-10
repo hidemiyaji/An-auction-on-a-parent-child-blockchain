@@ -87,6 +87,7 @@ Total bidders automatically adjusted according to CBC count:
 
 Bidders are distributed as evenly as possible across each CBC.
 
+<<<<<<< HEAD
 ## Output Results
 
 ### 1. Real-time Progress
@@ -197,6 +198,8 @@ Reduce the number of trials:
 ```bash
 python run_scalability_test.py --trials 3
 ```
+=======
+>>>>>>> 311cc1835bd1314e7f43725455a4cd8831f7370d
 
 ## Development & Extension
 
